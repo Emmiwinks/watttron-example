@@ -10,9 +10,7 @@ def get_comic():
     req = requests.get(url)
 
     soup = bs4.BeautifulSoup(req.text, 'html.parser')
-    output = soup.find_all('img')[2].get("src")
+    src = soup.find_all('img')[2].get("src")
 
-    return output
+    return src
 
-
-get_comic()
