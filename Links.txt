@@ -1,0 +1,9 @@
+Github repo
+https://github.com/Emmiwinks/watttron-example
+
+Docker Hub repository
+https://hub.docker.com/repository/docker/emmiwinks/spice-time
+
+Azure deployment
+https://watttron.greenmoss-03184d63.eastus.azurecontainerapps.io
+
